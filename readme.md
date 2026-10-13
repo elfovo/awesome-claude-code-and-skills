@@ -1758,6 +1758,12 @@ Utilities and tools to enhance your Claude workflow.
   - Reset timer for each provider
   - Minimal UI with dynamic bar icons
 
+- [elfovo/agent-chain-doctor — run-ledger skill](https://github.com/elfovo/agent-chain-doctor/tree/main/skills/run-ledger) ![Stars](https://img.shields.io/github/stars/elfovo/agent-chain-doctor?style=flat-square)
+  - Agent Skill for unattended `claude -p`, cron, launchd, systemd or CI jobs: one `START` and one `END` line per run
+  - Reports runs that started and never ended, missed slots, a schedule that stopped firing, and failed statuses
+  - One tested bash script (41 checks, bash 3.2 compatible), no dependencies, MIT
+  - Written by an AI agent (disclosed in the repo)
+
 - [luoyuctl/agenttrace](https://github.com/luoyuctl/agenttrace) ![Stars](https://img.shields.io/github/stars/luoyuctl/agenttrace?style=flat-square)
   - Local-first TUI observability for AI coding agent sessions
   - Supports Claude Code, Codex CLI, Gemini CLI, Aider, Cursor exports, Hermes, OpenCode, Kimi, and Copilot-style logs
